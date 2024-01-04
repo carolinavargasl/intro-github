@@ -1,13 +1,2 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Cargar la animación
-    var animacion = bodymovin.loadAnimation({
-        container: document.getElementById('animacion'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: 'RS/build/js/home/stars.json' // Ruta al archivo JSON
-    });
-});
-
-
+document.addEventListener("DOMContentLoaded",(function(){bodymovin.loadAnimation({container:document.getElementById("animacion"),renderer:"svg",loop:!0,autoplay:!0,path:"RS/build/js/home/stars.json"})}));
 //# sourceMappingURL=stars.js.map
